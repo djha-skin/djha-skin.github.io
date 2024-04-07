@@ -1,9 +1,26 @@
+html, body {
+height: 100%;
+}
 
+html {
+display: table;
+margin: auto;
+}
+
+body {
+display: table-cell;
+vertical-align: middle;
+}
 body {
   color: rgb(0, 0, 255);
   background-color: white;
   font-size: 16px;
-  font-family: 'DejaVu Sans Mono', monospace;
+  font-family: 'DejaVu Sans', sans-serif;
+  width: 640px;
+  float: center;
+}
+code {
+    font-family: 'DejaVu Sans Mono', monospace;
 }
 
 a:link {
@@ -17,11 +34,30 @@ a:visited {
 }
 
 @media (prefers-color-scheme: dark) {
+
+html, body {
+height: 100%;
+}
+
+html {
+display: table;
+margin: auto;
+}
+
+body {
+display: table-cell;
+vertical-align: middle;
+}
     body {
       color: rgb(0, 255, 0);
       background-color: black;
       font-size: 16px;
-      font-family: 'DejaVu Sans Mono', monospace;
+      font-family: 'DejaVu Sans', sans-serif;
+      width: 640px;
+      float: center;
+    }
+    code {
+        font-family: 'DejaVu Sans Mono', monospace;
     }
     a:hover {
         color: rgb(128, 255, 128);
