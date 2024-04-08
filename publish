@@ -1,0 +1,5 @@
+#!/bin/sh
+
+site_name="about.djhaskin.com"
+tar -cvz *.png *.jpg *.css *.html > "${site_name}.tar.gz"
+hut pages publish -d "${site_name}" "${site_name}.tar.gz"
